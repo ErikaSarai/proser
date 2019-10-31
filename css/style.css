@@ -838,7 +838,7 @@ a[href*='tel'], a[href*='mailto'] {
 
 .box-icon-3 .icon,
 .box-icon-3 .title {
-	color: #516ca9;
+	color: #f7f7f7;
 }
 
 .box-icon-3 * + .text {
@@ -5033,7 +5033,7 @@ h5 + .p-offset-1 {
 .section-md,
 .section-lg,
 .section-xl {
-	padding: 50px 0;
+	padding: 10px 0;
 }
 
 .section-collapse + .section-collapse {
@@ -5072,7 +5072,7 @@ html [class*='section-'].section-bottom-0 {
 		padding: 70px 0;
 	}
 	.section-lg {
-		padding: 85px 0;
+		padding: 40px 0;
 	}
 	.section-lg-top-50 {
 		padding-top: 50px;
@@ -5096,7 +5096,7 @@ html [class*='section-'].section-bottom-0 {
 		padding-bottom: 50px;
 	}
 	.section-lg {
-		padding: 100px 0;
+		padding: 50px 0;
 	}
 	.section-lg-top-50 {
 		padding-top: 50px;
@@ -5300,6 +5300,10 @@ html [class*='section-'].section-bottom-0 {
 
 .bg-default {
 	background-color: #ffffff;
+}
+
+.bg-default-unic{
+	background-color: #516ca9;
 }
 
 .bg-default:not([style*="background-"]) + .bg-default:not([style*="background-"]) {
